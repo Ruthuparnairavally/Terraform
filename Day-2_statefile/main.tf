@@ -3,6 +3,6 @@ resource "aws_instance" "demo" {
   instance_type = var.instance_type
 
   tags = {
-    Name="dev"
+    Name="dev-env"
   }
 }
