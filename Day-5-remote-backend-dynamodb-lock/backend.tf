@@ -5,8 +5,9 @@ terraform {
     region  = "us-east-1"
     profile = "dev"
 
-    use_lockfile = true 
+    # use_lockfile = true 
 
+    dynamodb_table = "terraform-state-lock-dynamo"
 
   }
 }

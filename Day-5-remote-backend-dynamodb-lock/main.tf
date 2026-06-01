@@ -1,6 +1,6 @@
-resource "aws_s3_bucket" "testdemo" {
-  bucket = "awstestterrabuc"
-}
+# resource "aws_s3_bucket" "testdemo" {
+#   bucket = "teraform-demo-state"
+# }
 
 resource "aws_instance" "named" {
   ami           = var.ami_id
